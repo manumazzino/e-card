@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sono&display=swap');
+
+
+a{
+    color: rgb(250, 243, 240); 
+}
+
+.navbar-nav .nav-link.active,  .nav-link {
+    color: rgb(250, 243, 240);  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-icons{
+    display: flex;
+    flex-flow: row;
+    column-gap:15px;
+    padding: 0px;
+   
+}
+
+.barraIconos{
+    margin: 0;
+    padding-right: 20px;
+    width: 250px;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+body{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    color: #1a3c50;
+    font-family: 'Sono', sans-serif;
+}
+
+
+.icono{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(151, 145, 142);   
+}
+
+h1{
+    
+    text-decoration-line: underline;
+    text-decoration-color: rgb(228, 167, 126);
+    text-decoration-thickness: 15px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: -5px;
+  
+}
+
+.btn{
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-width: 3px;
+    --bs-btn-color: #1a3c50;
+    --bs-btn-bg: #37494518;
+    --bs-btn-border-color:  rgb(228, 167, 126);
+    --bs-btn-border-radius: 2rem;
+    --bs-btn-hover-color:  #1a3c50;
+    --bs-btn-hover-bg: rgb(228, 167, 126);
+    --bs-btn-hover-border-color: #1a3c50;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #1a3c50;
+    --bs-btn-active-border-color: rgb(228, 167, 126);
+  }
+
