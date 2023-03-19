@@ -76,3 +76,6 @@ h1{
     --bs-btn-active-border-color: rgb(228, 167, 126);
   }
 
+  .foto{
+    max-width: 100%;
+  }
